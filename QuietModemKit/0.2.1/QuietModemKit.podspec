@@ -15,5 +15,6 @@ Pod::Spec.new do |spec|
     :branch => 'master',
     :tag => spec.version.to_s 
   }
+  spec.source_files  = "QuietModemKit/**/*.{h,m,swift}"
   spec.summary      = 'iOS framework for the Quiet Modem'
 end
